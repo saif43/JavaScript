@@ -1,0 +1,10 @@
+#money{
+    box-sizing: border-box;
+}
+
+
+#price{
+    font-size: 110%;
+    border: 2px solid green;
+    height: 50px;
+}
