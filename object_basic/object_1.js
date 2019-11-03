@@ -9,6 +9,6 @@ var x = person.age;
 var y = person['age'];
 
 document.write(x+'<br>')
-document.write(x+'<br>')
+document.write(y+'<br>')
 document.write(person.name+'<br>')
 document.write(person.name.length+'<br>')
