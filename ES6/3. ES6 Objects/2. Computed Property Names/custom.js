@@ -10,13 +10,22 @@ let user = {
 console.log(user.name); // Jack
 console.log(user.user_1234); // 08923
 
+console.log(`user name is ${user.name} and user ID is ${user.user_1234}`)
+
 console.log('-------------------');
+
+// var i = 0;
+// var a = {
+//   ['foo' + ++i]: i,
+//   ['foo' + ++i]: i,
+//   ['foo' + ++i]: i
+// };
 
 var i = 0;
 var a = {
-  ['foo' + ++i]: i,
-  ['foo' + ++i]: i,
-  ['foo' + ++i]: i
+  [`foo${++i}`]: i,
+  [`foo${++i}`]: i,
+  [`foo${++i}`]: i
 };
 
 console.log(a.foo1); // 1
