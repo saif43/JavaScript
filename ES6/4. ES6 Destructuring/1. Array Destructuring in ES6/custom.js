@@ -13,6 +13,9 @@ let aa = () => {
 };
 
 console.log(aa());
+console.log('----------------------------------');
+
+
 let [oneX, , twoX] = aa();
 
 console.log(oneX);
