@@ -12,7 +12,7 @@ let aa = () => {
     return [1, 3, 2];
 };
 
-console.log(aa());
+console.log(aa()); // [ 1, 3, 2 ]
 console.log('----------------------------------');
 
 
