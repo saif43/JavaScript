@@ -14,3 +14,5 @@ class Dog extends Animal {
 
 let dog = new Dog('Rex');
 dog.speak();
+
+console.log('------------------');
