@@ -28,9 +28,3 @@ const arr = ['3', '5', '8'];
 console.log(
     arr.find(x => x == 8).repeat(2)
 );
-
-
-const num = 5;
-const calc = (x, y, z = num) -> {
-    return x + y + z;
-}
